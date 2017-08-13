@@ -14,7 +14,7 @@
         echo -e '\e[32mLaunching Build Menu\e[0m'
         sleep 1
         clear
-			./menu.sh
+			./core/menu.sh
 			exit
             ;;
             
@@ -22,7 +22,7 @@
         echo -e '\e[32mLaunching the updater script\e[0m'
         sleep 1
         clear
-            ./update.sh
+            ./core/update.sh
             exit
             ;;
         "Setup")
