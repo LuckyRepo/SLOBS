@@ -23,7 +23,7 @@
 	        "Build SLOBS")
 	            echo -e '\e[104mYou are about to build SLOBS\e[0m'
 			cd ~/build/SLOBS
-			./solobuild.sh
+			./slobsbuild.sh
 		    pause 1
 	            exit
 	            ;;
