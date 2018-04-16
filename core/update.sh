@@ -15,6 +15,9 @@ echo -e '\e[104mStarting Updater v1.0.0\e[0m'
 		echo -e '\e[96mHelper Bot pulled git update\e[0m'
 		sleep 1
 		cd $OLDPWD
+#
+#Need to fix. Old version here. Not compatible.
+#
 #Helper Bot Move
 			if mv SLOBS/aosip.sh $PWD | grep -q "mv: cannot stat 'SLOBS/aosip.sh': No such file or directory"; then
   			echo -e '\e[91mHelper Script did not need to be updated.\e[0m'
